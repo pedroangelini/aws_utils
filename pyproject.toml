@@ -1,0 +1,19 @@
+[project]
+name = "pfa_aws_utils"
+version = "0.0.0"
+description = "Utilities to interact with my AWS resources"
+authors = [
+  { name = "Pedro F. Angelini", email = "pedro.angelini@gmail.com" },
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "boto3>1.26",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+"Homepage" = "https://github.com/pedroangelini/aws_utils"

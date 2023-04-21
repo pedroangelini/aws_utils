@@ -1,7 +1,7 @@
 # Pedro's AWS tools
 ## List of tools
 
--
+- s3.upload_file
 
 ## How to use
 
